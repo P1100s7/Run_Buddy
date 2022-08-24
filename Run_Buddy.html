@@ -4,49 +4,97 @@
 <head>
     <meta charset="utf-8">
     <title> Run Buddy </title>
-    <link rel="stylesheet" href="Run_buddy.css"> </link>
+    <link rel="stylesheet" href="Run_buddy.css">
+    </link>
 </head>
 
 <body>
     <header>
         <h1>Run Buddy</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="#what-we-do">What We Do</a>
-            </li>
-            <li>
-                <a href="#what-you-do">What You Do</a>
-            </li>
-            <li>
-                <a href="#your-trainers">Your Trainers</a>
-            </li>
-            <li>
-                <a href="#reach-out">Reach Out</a>
-            </li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#what-we-do">What We Do</a>
+                </li>
+                <li>
+                    <a href="#what-you-do">What You Do</a>
+                </li>
+                <li>
+                    <a href="#your-trainers">Your Trainers</a>
+                </li>
+                <li>
+                    <a href="#reach-out">Reach Out</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one od our trainers will schedule a consult</p>
+                <form>
+                    <label for="name">enter full name:</label>
+                    <input type="text" placeholder="your name" name="name" id="name" class="form-input">
+                    <label for="email">enter email address:</label>
+                    <input type="email" placeholder="email address" name="email" id="email" class="form-input">
+                    <lable for="phone">enter a telephone number:</lable>
+                    <input type="tel" placeholder="phone number" name="phone" id="phone" class="form-input">
+                    <p>
+                        have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">no</label>
+                    </p>
+                    <p>
+                        <label for="chackbox">
+                            i acknowledge that i am at least 18 years of age.
+                        </label>
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                    <button type="submit">
+                        get running!
+                    </button>
+
+                </form>
+            </div>
+        </section>
+
         <section id="what-we-do">
             <h2>
                 this is what we do
             </h2>
-
         </section>
         <section id="what-you-do">
+            <h2>
+                what you do
+            </h2>
 
         </section>
-        <section>
+        <section id="meet-the-trainers">
+            <h2>
+                meet the trainers
+            </h2>
 
         </section>
+        <section id="reach-out">
+            <h2>
+                reach out
+            </h2>
 
+        </section>
 
     </main>
     <footer>
         <p>
-            this is the footer
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br />
+            &copy; 2019 Run Buddy, Inc
+
+        </div>
         </p>
     </footer>
 </body>
+
 </html>
